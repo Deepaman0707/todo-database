@@ -1,6 +1,6 @@
 const express = require('express')
 require('dotenv').config()
-const port = process.env.PG_PORT || 4000
+const port = process.env.PG_PORT || 8000
 const app = express()
 const morgan = require('morgan')
 const cors = require('cors')
